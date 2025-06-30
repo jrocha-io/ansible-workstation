@@ -105,6 +105,7 @@ The `--ask-become-pass` flag allows Ansible to use sudo when needed.
 
 ## Repository Structure
 
+```txt
 ansible-workstation/
 ├── ansible/
 │   ├── playbook.yml         # Main Ansible playbook
@@ -131,6 +132,7 @@ ansible-workstation/
 ├── inventory.yml            # Host configuration
 ├── README.md                # This file
 └── setup.yml                # Main playbook
+```
 
 ## Customization
 
