@@ -206,15 +206,6 @@ wsl --shutdown
 sudo usermod -aG docker $USER
 ```
 
-## TODO
-
-[] Review this README.md file
-[] Add support for Fedora/CentOS
-[] Implement backup/restore functionality
-[] Add more IDE options
-[] Create uninstall playbook
-[] Add automated testing with molecule
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
