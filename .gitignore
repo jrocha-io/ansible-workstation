@@ -1,0 +1,304 @@
+# =====================================
+# Ansible
+# =====================================
+
+*.sw[po]
+ansible.cfg
+
+# Ansible temporary and cache files
+.ansible/
+*.retry
+fact_caching/
+.galaxy_install_info
+
+# Ansible logs and temporary files
+*.log
+*.last
+*.tmp
+
+# Ansible Vault password files (SECURITY CRITICAL)
+.vault_pass
+.vault_password
+vault_password.txt
+vault_pass.txt
+vault.yml
+
+# Local configuration overrides
+local_vars.yml
+local_config.yml
+group_vars/local.yml
+group_vars/local/
+host_vars/local.yml
+host_vars/local/
+
+# Fact cache and local configuration
+fact_caching/
+
+# ================================
+# ANSIBLE GALAXY & COLLECTIONS
+# ================================
+
+# Downloaded roles and collections
+roles/downloaded/
+collections/downloaded/
+.galaxy_cache/
+
+# Local development overrides
+ansible.cfg.local
+inventory.local.yml
+inventory.local.ini
+
+# ================================
+# SECRETS
+# ================================
+
+# Secrets and sensitive data (SECURITY CRITICAL)
+vars/secrets.yml
+secrets.yml
+vault.yml
+*.vault.yml
+**/secrets/**
+**/vault/**
+.secrets/
+
+# SSH keys and certificates (SECURITY CRITICAL)
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+id_rsa*
+id_ecdsa*
+id_ed25519*
+*.pub
+private_key*
+public_key*
+ssh_keys/
+
+# GPG keys
+*.gpg
+*.asc
+secring.*
+
+# =====================================
+# Python
+# =====================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+#*.py[cod]
+*$py.class
+*.so
+
+# Distribution/packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Pip logs and misc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test/coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ================================
+# VIRTUAL ENVIRONMENTS
+# ================================
+
+# Environment-specific configs
+.env
+.env.local
+.env.production
+.env.development
+config.local.yml
+
+# Virtual Environments
+.venv
+.venv/
+venv/
+VENV/
+env/
+ENV/
+env.bak/
+venv.bak/
+pyvenv.cfg
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# =====================================
+# Editors / IDEs
+# =====================================
+
+# Visual Studio Code
+.vscode/
+.vscode-server/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Vim/Neovim
+*.sw[pon]
+*~
+.netrwhist
+Session.vim
+tags
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# =====================================
+# OS / System Files (macOS/Linux)
+# =====================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =====================================
+# Logs / Temporary files / Backups
+# =====================================
+
+# Log files
+*.log
+logs/
+log/
+*.log.*
+*.log.gz
+
+# Runtime files
+*.pid
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+tmp/
+temp/
+.tmp/
+
+# Archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Backup
+*.bak
+*.backup
+*.old
+
+# ================================
+# DOCUMENTATION & BUILD
+# ================================
+
+# Documentation builds
+_build/
+.sphinx-build/
+docs/_build/
+site/
+.mkdocs_build/
+
+# Node.js (for documentation tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================================
+# CUSTOM PROJECT SPECIFIC
+# ================================
+# Add your project-specific ignores below this line
+# Example:
+# custom_configs/
+# local_scripts/
+
+
+
