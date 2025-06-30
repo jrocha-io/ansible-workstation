@@ -1,6 +1,6 @@
-# Ansible Workstation Setup
+# Forge My Machine
 
-An automated Linux/WSL workstation setup using Ansible to configure a complete development environment.
+An automated Linux or WSL workstation setup using Ansible.
 This playbook installs and configures essential development tools, GUI applications, and system settings optimized for multi-language development
 
 ## Features
@@ -53,14 +53,14 @@ This playbook installs and configures essential development tools, GUI applicati
 1. **Run the bootstrap script** (installs Python3, pip, git, and Ansible):
 
 ```bash
-curl -sSL https://github.com/jrocha-io/ansible-workstation/blob/main/bootstrap.sh | bash
+curl https://raw.githubusercontent.com/jrocha-io/forge-my-machine/main/bootstrap.sh | bash
 ```
 
 2. **Clone this repository**
 
 ```bash
-git clone https://github.com/yourusername/ansible-workstation.git
-cd ansible-workstation
+git clone https://github.com/jrocha-io/forge-my-machine.git
+cd forge-my-machine
 ```
 
 3. **Edit group_vars/all.yml** to customize your setup:
@@ -106,7 +106,7 @@ The `--ask-become-pass` flag allows Ansible to use sudo when needed.
 ## Repository Structure
 
 ```txt
-ansible-workstation/
+forge-my-machine/
 ├── ansible/
 │   ├── playbook.yml         # Main Ansible playbook
 │   └── roles/               # Modular roles for each tool/language
