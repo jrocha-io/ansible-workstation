@@ -12,7 +12,7 @@ This playbook installs and configures essential development tools, GUI applicati
 ## What This Sets Up
 
 ### CLI Enhancements
-
+<!--
 - **Core Tools**: Git, SSH, GPG, Docker, Dropbox, HashiCorp Vault
 - **AI/ML**: ollama, n8n, hugging face
 - **CLI**: oh-my-zsh, bash-it
@@ -20,18 +20,18 @@ This playbook installs and configures essential development tools, GUI applicati
 - **Dotfiles**: Optional dotfiles management.
 - **devops tools**: AWS, Azure, GCP, kubectl, minikube, terraform, Jenkins
 - **System Tools**: Monitoring, file management, and productivity tools
-
+-->
 ### GUI
-
+<!--
 - **Editors/IDEs**: VS Code, JetBrains IDEs, Windsurf, Cursor
 - **Database Tools**: DBeaver, pgAdmin
 - **Browser Tools**: Firefox, Chrome, Browserstack
 - **API Testing** - Postman/Insomnia for API development
 - **Other GUI Apps**: Slack, Warp, Open WebUI
 - **Development Fonts** - Coding-optimized fonts (Fira Code, JetBrains Mono)
-
+-->
 ### Languages SDKs/runtimes:
-
+<!--
 - **Python**: pyenv, virtualenv (Version Managers), conda, minconda (package managers)
 - **.NET SDK**: 
 - **Java**: sdkman! (Version Manager), 
@@ -41,7 +41,7 @@ This playbook installs and configures essential development tools, GUI applicati
 - **Rust**: 
 - **C/C++**:
 - **Kotlin**:
-
+-->
 ## Quick Start
 
 ### Requirements
