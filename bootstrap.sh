@@ -18,6 +18,7 @@ sudo apt install -y \
     git \
     python3 \
     python3-pip \
+    pipx \
     software-properties-common \
     apt-transport-https \
     ca-certificates \
@@ -26,7 +27,10 @@ sudo apt install -y \
     unzip
 
 echo "Install Ansible with pip (easiest for latest version)"
-pip3 install --user ansible
+pipx install --include-deps ansible
+pipx ensurepath
+source ~/.bashrc
+#python3 -m pip install --user ansible
 
 # Verify installations
 echo "✅ Verification:"
