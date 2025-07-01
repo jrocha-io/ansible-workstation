@@ -30,17 +30,12 @@ echo "Install Ansible with pip (easiest for latest version)"
 pipx install --include-deps ansible
 pipx ensurepath
 source ~/.bashrc
-#python3 -m pip install --user ansible
 
 # Verify installations
 echo "✅ Verification:"
 echo "Git: $(git --version)"
 echo "Python: $(python3 --version)"
 echo "Ansible: $(ansible --version | head -n1)"
-
-# Add ~/.local/bin to PATH if needed
-echo 'export PATH=$PATH:~/.local/bin' >> ~/.bashrc
-source ~/.bashrc
 
 echo "🎉 Bootstrap complete! Ready for Ansible setup."
 echo "Next steps:"
