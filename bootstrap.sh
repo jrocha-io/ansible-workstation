@@ -37,12 +37,8 @@ echo "Git: $(git --version)"
 echo "Python: $(python3 --version)"
 echo "Ansible: $(ansible --version | head -n1)"
 
+echo "Cloning ansible-workstation repository..."
+git clone https://github.com/jrocha-io/forge-my-machinen.git ~/forge-my-machine
+cd ~/forge-my-machine
 echo "🎉 Bootstrap complete! Ready for Ansible setup."
-echo "Next steps:"
-echo "1. Cloning ansible-workstation repository"
-git clone https://github.com/jrocha-io/ansible-workstation.git ~/ansible-workstation
-echo "2. Run: ansible-playbook setup.yml"
-cd ~/ansible-workstation
-ansible-playbook playbook.yml --ask-become-pass
-
-curl -sL https://raw.githubusercontent.com/yourusername/bootstrap/main/bootstrap.sh | bash
+echo "Go to https://github.com/jrocha-io/forge-my-machine/ for more info.
