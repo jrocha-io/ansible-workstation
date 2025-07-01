@@ -38,7 +38,7 @@ echo "Python: $(python3 --version)"
 echo "Ansible: $(ansible --version | head -n1)"
 
 echo "Cloning ansible-workstation repository..."
-git clone https://github.com/jrocha-io/forge-my-machinen.git ~/forge-my-machine
+git clone https://github.com/jrocha-io/forge-my-machine.git ~/forge-my-machine
 cd ~/forge-my-machine
 echo "🎉 Bootstrap complete! Ready for Ansible setup."
 echo "Go to https://github.com/jrocha-io/forge-my-machine/ for more info.
